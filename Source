@@ -5065,7 +5065,7 @@ function Compkiller:ChangeHighlightColor(NewColor: Color3)
 	end;
 end;
 
-function Compkiller.new(Config : Window)
+function Compkiller:AddWindow(Config : Window)
 
 	if not Config.Scale then
 		if Compkiller:_IsMobile() then
